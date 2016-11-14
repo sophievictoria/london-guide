@@ -82,8 +82,15 @@ small {
 
 
 }
-.dessert{
-  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+.Workout{
+  background-image: url("./images/Workout.PNG");
+  height: 500px;
+  width: 500px;
+}
+
+
+.Shop{
+  background-image: url("./images/Shop.PNG");
   height: 500px;
   width: 500px;
 }
