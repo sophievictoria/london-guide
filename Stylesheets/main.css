@@ -71,14 +71,15 @@ small {
   background-image: url("./images/brunch.jpg");
   height: 500px;
   width: 500px;
-  float: center;
+
+
 
 }
 .Drinks{
   background-image: url("./images/drinks.jpg");
   height: 500px;
   width: 500px;
-  float: center;
+  
 
 
 }
@@ -86,6 +87,7 @@ small {
   background-image: url("./images/Workout.PNG");
   height: 500px;
   width: 500px;
+  float: left;
 }
 
 
@@ -93,6 +95,7 @@ small {
   background-image: url("./images/Shop.PNG");
   height: 500px;
   width: 500px;
+  float: left;
 }
 
 @media (max-width: 300px) {
