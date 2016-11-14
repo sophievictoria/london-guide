@@ -31,6 +31,7 @@ h2 {
   margin: 40px 0 0 0;
   letter-spacing: 5px;
 }
+
 }
 p {
   letter-spacing: 5px;
@@ -48,76 +49,35 @@ p {
   font-family: 'Muli', sans-serif;
   height: 30px;
   width: 30px;
-  transition: height .5s;
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
 
 }
 
-small {
-  opacity: 0;
-}
-
-.show-description p {
-  height: 400px;
-  width: 400px;
-}
-
-.show-description small {
-  opacity: 1;
+.row{
+  height: 500px;
 }
 
 .Brunch{
-  background-image: url("./images/brunch.jpg");
-  height: 500px;
-  width: 500px;
-
-
-
-}
-.Drinks{
   background-image: url("./images/drinks.jpg");
   height: 500px;
   width: 500px;
-  
 
+}
+.Drinks{
+  background-image: url("./images/brunch.jpg");
+  height: 500px;
+  width: 500px;
 
 }
 .Workout{
   background-image: url("./images/Workout.PNG");
   height: 500px;
   width: 500px;
-  float: left;
 }
-
 
 .Shop{
   background-image: url("./images/Shop.PNG");
   height: 500px;
   width: 500px;
-  float: left;
-}
-
-@media (max-width: 300px) {
-  h1 {
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 20px;
-    margin: 20px 0 30px 0;
-  }
-  div {
-    margin: 20px 12px 0 12px;
-  }
-  p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  small {
-    font-size: 16px;
-  }
 }
 
 </style>
