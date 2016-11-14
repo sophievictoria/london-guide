@@ -53,31 +53,31 @@ p {
 }
 
 .row{
-  height: 500px;
+  height: 445px;
 }
 
 .Brunch{
   background-image: url("./images/drinks.jpg");
-  height: 500px;
-  width: 500px;
+  height: 460px;
+  width: 460px;
 
 }
 .Drinks{
   background-image: url("./images/brunch.jpg");
-  height: 500px;
-  width: 500px;
+  height: 460px;
+  width: 460px;
 
 }
 .Workout{
   background-image: url("./images/Workout.PNG");
-  height: 500px;
-  width: 500px;
+  height: 460px;
+  width: 460px;
 }
 
 .Shop{
   background-image: url("./images/Shop.PNG");
-  height: 500px;
-  width: 500px;
+  height: 460px;
+  width: 460px;
 }
 
 </style>
