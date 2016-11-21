@@ -52,6 +52,7 @@ p {
 ul {
     padding: 10px;
     background-color: #FFB6C1;
+    font-family: 'Work Sans', sans-serif;
 }
 li {
     display: inline-block;
@@ -94,6 +95,10 @@ a:hover {
   background-image: url("./images/Shop.PNG");
   height: 460px;
   width: 460px;
+}
+
+.nav{
+  text-align: center;
 }
 
 </style>
