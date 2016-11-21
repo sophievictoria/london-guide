@@ -4,6 +4,14 @@
 
   <head>
 
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <Script>
+  $("#drinks").hover(function(){
+      $(this).css("background-color", "yellow");
+      }, function(){
+      $(this).css("background-color", "pink");
+  });
+</script>
   <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
 
@@ -24,12 +32,19 @@
         </div>
       <div class = 'col-sm-4'>
     <div class="Brunch">
+      <div>
+        <p>
+          Brunch
+        </p>
 </div>
     </div>
 
   <div class = 'col-sm-4'>
     <div class="Drinks">
-    </div>
+        <p>
+          Drinks
+        </p>
+  </div>
 
     </div>
     <div class = 'col-sm-2'>
@@ -43,13 +58,17 @@
     </div>
   <div class = 'col-sm-4'>
 <div class="Workout">
+    <p>
+      Workout
+    </p>
 </div>
 </div>
 <div class = 'col-sm-4'>
 <div class="Shop">
 </div>
-
-</div>
+  <p>
+    Shop
+  </p>
 <div class = 'col-sm-2'>
 </div>
 </div>

@@ -3,7 +3,7 @@ body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
   max-width: 600px;
-  background: #232323;
+  background-color: black;
 }
 div {
   height: 200px;
@@ -46,7 +46,7 @@ p {
   position: absolute;
   bottom: 0;
   margin: 0;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   height: 30px;
   width: 30px;
 
@@ -57,13 +57,13 @@ p {
 }
 
 .Brunch{
-  background-image: url("./images/drinks.jpg");
+  background-image: url("./images/brunch.jpg");
   height: 460px;
   width: 460px;
 
 }
 .Drinks{
-  background-image: url("./images/brunch.jpg");
+  background-image: url("./images/drinks.jpg");
   height: 460px;
   width: 460px;
 
