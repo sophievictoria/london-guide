@@ -6,10 +6,21 @@
 
   <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 
-  <Script>
-  $('parabrunch').hide()
-  </script>
-  
+  <script>
+
+  $(document).ready( function() {
+
+    $('.gallery-item').hover( function() {
+        $(this).find('.img-title').fadeIn(300);
+    }, function() {
+        $(this).find('.img-title').fadeOut(100);
+    });
+
+    });
+
+    </script>
+
+
   <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
 
@@ -25,6 +36,8 @@
 
     <h2>A GUIDE TO LONDON</h2>
 
+  </br>
+
 <div class='nav'>
     <header>
       <ul>
@@ -37,51 +50,99 @@
     </header>
   </div>
 
-    <div class='row'>
-        <div class = 'col-sm-2'>
-        </div>
+</br>
+
+
+<div class='row'>
+
+  <div class = 'col-sm-2'>
+  </div>
+
+
+
+    <div class="wrapper">
+
       <div class = 'col-sm-4'>
-    <div class="Brunch">
-      <div>
-        <p class=parabrunch>
-          Brunch
-        </p>
-</div>
-    </div>
+
+          <a href="brunch.html">
+    <figure class="gallery-item">
+        <img src="Stylesheets/images/brunch.PNG">
+        <figcaption class="img-title">
+            <h5>BRUNCH</h5>
+        </figcaption>
+    </figure>
+  </a>
+
+  </div>
 
   <div class = 'col-sm-4'>
-    <div class="Drinks">
-        <p class=paradrinks>
-          Drinks
-        </p>
-  </div>
 
-    </div>
-    <div class = 'col-sm-2'>
-    </div>
-  </div>
+
+
+      <a href="workout.html">
+    <figure class="gallery-item">
+        <img src="Stylesheets/images/Workout.PNG">
+        <figcaption class="img-title">
+            <h5>WORKOUT</h5>
+        </figcaption>
+    </figure>
+  </a>
+
+
+</div>
+
+</div>
+
+
+<div class = 'col-sm-2'>
+</div>
 
 </div>
 
 <div class='row'>
-    <div class = 'col-sm-2'>
-    </div>
-  <div class = 'col-sm-4'>
-<div class="Workout">
-    <p>
-      Workout
-    </p>
-</div>
-</div>
+
+  <div class = 'col-sm-2'>
+  </div>
+
+
+
+    <div class="wrapper">
+
 <div class = 'col-sm-4'>
-<div class="Shop">
+
+        <a href="shop.html">
+    <figure class="gallery-item">
+        <img src="Stylesheets/images/Shop.PNG">
+        <figcaption class="img-title">
+            <h5>SHOP</h5>
+        </figcaption>
+    </figure>
+  </a>
+
 </div>
-  <p>
-    Shop
-  </p>
+
+<div class = 'col-sm-4'>
+
+
+      <a href="drinks.html">
+    <figure class="gallery-item">
+        <img src="Stylesheets/images/drinks.PNG">
+        <figcaption class="img-title">
+            <h5>DRINKS</h5>
+        </figcaption>
+    </figure>
+  </a>
+
+</div>
+
+</div>
+
 <div class = 'col-sm-2'>
 </div>
+
 </div>
+
+
 
   </body>
 
