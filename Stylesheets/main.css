@@ -3,7 +3,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   margin: 0 auto;
   max-width: 600px;
-  background-color: black;
   text-align: center;
 }
 
@@ -20,22 +19,84 @@ h1 {
 h2 {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
-  color: #bbbbbb;
+  color: rgba(0,0,0,0.5);
   margin: 0px 0 70px 0;
-  font-size: 40px;
-  margin: 40px 0 0 0;
-  letter-spacing: 5px;
+  font-size: 70px;
+  margin: 80px 0 150px 0;
+  letter-spacing: 10px;
 }
 
 
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  color: rgba(0,0,0,0.5);
+  margin: 0px 0 70px 0;
+  font-size: 40px;
+  margin: 0 0 0 0;
+  letter-spacing: 10px;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  color: rgba(0,0,0,0.5);
+  margin: 0px 0 70px 0;
+  font-size: 150px;
+  margin: 20 0 20 0;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+
+
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  color: rgba(0,0,0,0.5);
+  margin: 0px 0 70px 0;
+  font-size: 14px;
+  margin: 0 0 0 0;
+  letter-spacing: 0px;
+}
+
+.address {
+  font-style: italic;
+}
+
+.p2 {
+  text-align: right;
+}
+
+.address2 {
+  text-align: right;
+  font-style: italic;
+}
+
+.right {
+  text-align: right;
+}
+
 ul {
     padding: 10px;
-    background-color: #FFB6C1;
+    background-color: rgba(0,0,0,0.05);
     font-family: 'Work Sans', sans-serif;
+    padding:20px 0 20px 0;
 }
 li {
     display: inline-block;
     padding: 0px 40px 0px 40px;
+
+      color: rgba(0,0,0,0.5);
+}
+
+.main {
+
+
+  letter-spacing: 5px;
+  color: rgba(0,0,0,0);
+
 }
 
 a {
@@ -51,9 +112,9 @@ a:hover {
 
 h5 {
   font-family: 'Work Sans', sans-serif;
-  text-align: center;
   font-size: 60px;
   letter-spacing: 5px;
+  align: center;
 }
 
 
@@ -67,9 +128,7 @@ h5 {
     position: relative;
 }
 
-    .gallery-item:first-child {
-        margin-right: 2.762430939%;
-    }
+
 
 .gallery-item img {
     width: 100%;
@@ -96,9 +155,24 @@ h5 {
     .img-title h5 {
         position: absolute;
         color: #bbbbbb;
-        top: 45%;
+        top: 40%;
         width: 100%;
         text-align: center;
+    }
+
+    .gallery-item2 {
+        height: auto;
+        width: 100%;
+        float: left;
+        margin-bottom: 2em;
+        position: relative;
+    }
+
+
+
+    .gallery-item2 img {
+        width: 100%;
+
     }
 
 
