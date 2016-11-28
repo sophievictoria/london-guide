@@ -48,9 +48,6 @@ h4 {
   text-align: center;
 }
 
-
-
-
 p {
   font-family: 'Work Sans', sans-serif;
   text-align: left;
@@ -69,6 +66,9 @@ p {
   text-align: right;
 }
 
+.p3 {
+  text-align: center;
+}
 .address2 {
   text-align: right;
   font-style: italic;
@@ -83,6 +83,7 @@ ul {
     background-color: rgba(0,0,0,0.05);
     font-family: 'Work Sans', sans-serif;
     padding:20px 0 20px 0;
+
 }
 li {
     display: inline-block;
@@ -117,7 +118,10 @@ h5 {
   align: center;
 }
 
-
+.ul2 {
+  background-color: white
+  position: center;
+}
 
 
 .gallery-item {
@@ -175,5 +179,28 @@ h5 {
 
     }
 
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+
+}
+
+ul.share-buttons {
+
+  display: inline;
+  position: center;
+ 
+}
+
+ul.share-buttons .sr-only {
+  position: center;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
 
 </style>
