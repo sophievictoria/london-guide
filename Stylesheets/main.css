@@ -6,29 +6,63 @@ body {
   text-align: center;
 }
 
+#top, #bottom, #left, #right {
+	background: rgba(255,255,255,1);
+
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+    position: fixed;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top {
+		left: 0; right: 0;
+		height:15px;
+		}
+
+
+    #bottom {
+  		left: 0; right: 0;
+  		height:0px;
+  		}
+
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+
+
+    body {
+        background-color: rgba(0,0,0,0.05);
+    }
+
 h1 {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
-  font-size: 25px;
-  background-color: #FFB6C1;
+  font-size: 18px;
+  background-color: black;
   color: white;
   margin: 0 0 0 0;
-  padding: 7px 0 7px 0;
+  padding: 15px 0 15px 0;
   letter-spacing: 5px;
+  font-weight:bolder;
 }
 h2 {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
-  color: rgba(0,0,0,0.5);
-  margin: 0px 0 70px 0;
-  font-size: 70px;
-  margin: 80px 0 100px 0;
-  letter-spacing: 10px;
+  color: rgba(0,0,0,0.05);
+  font-size: 40px;
+  margin: 0px 0 5px 0;
+  letter-spacing: 5px;
+  font-weight: bold;
 }
 
 mark {
-  background-color: rgba(0,0,0,0.5);
-  color: rgba(255,255,255,1);
+  background-color: rgba(255,255,255,1);
+  color: #FFB6C1;
+
 }
 
 h3 {
@@ -44,9 +78,9 @@ h3 {
 h4 {
   font-family: 'Work Sans', sans-serif;
   text-align: left;
-  color: rgba(0,0,0,0.5);
+  color: #FFB6C1;
   margin: 0px 0 70px 0;
-  font-size: 150px;
+  font-size: 130px;
   margin: 20 0 20 0;
   letter-spacing: 15px;
   text-align: center;
@@ -56,7 +90,7 @@ h4 {
 p {
   font-family: 'Work Sans', sans-serif;
   text-align: left;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.75);
   margin: 0px 0 70px 0;
   font-size: 14px;
   margin: 0 0 0 0;
@@ -97,25 +131,27 @@ label {
 
 ul {
     padding: 10px;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.0);
     font-family: 'Work Sans', sans-serif;
-    padding:20px 0 20px 0;
+    padding:20px 0 0 0;
+    letter-spacing: 3px;
+
 
 }
 
 
 .share-buttons {
 
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0);
 
 
 }
 
 li {
     display: inline-block;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 30px 0px 30px;
 
-      color: rgba(0,0,0,0.5);
+      color: rgba(0,0,0,0.75);
 }
 
 .social-list {
@@ -126,8 +162,14 @@ li {
 
 
   letter-spacing: 5px;
-  color: rgba(0,0,0,0);
+  color: rgba(0,0,0,1);
+  font-weight: bolder;
+  font-size: 25px;
 
+}
+
+.amain {
+  color: white
 }
 
 a {
@@ -248,7 +290,7 @@ h6 {
   .img-title-small h6 {
             position: absolute;
             color: #bbbbbb;
-            top: 40%;
+            top: 35%;
             width: 100%;
             text-align: center;
         }
@@ -290,6 +332,16 @@ ul.share-buttons .sr-only {
 
 }
 
+@media
 
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+
+{
+	#top, #bottom, #left, #right { display: none; }
+}
 
 </style>
