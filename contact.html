@@ -4,6 +4,23 @@
 
   <head>
 
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+
+    <script>
+
+    $(document).ready( function() {
+
+      $('.gallery-item-small').hover( function() {
+          $(this).find('.img-title-small').fadeIn(300);
+      }, function() {
+          $(this).find('.img-title-small').fadeOut(100);
+      });
+
+      });
+
+      </script>
+
+
   <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
 
@@ -16,26 +33,29 @@
 
     <h1>SHARE YOUR FAVORITE SPOTS WITH #AMILLENIALONDON</h1>
 
-    <h2>Contact</h2>
+
 
   <div class='nav'>
     <header>
       <ul>
         <li><a href="drinks.html">DRINKS</a></li>
           <li><a href="brunch.html">BRUNCH</a></li>
+         <li class="main"><a href="index.html">A MILLENIAL LONDON</a></li>
           <li><a href="shop.html">SHOP</a></li>
           <li><a href="workout.html">WORKOUT</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+
       </ul>
     </header>
   </div>
+
+    <h4>CONTACT</h4>
 
 <br>
 <p class="p3">Got a spot you can't keep secret? Share them with us and we'll feature them on A Millenial London.
 </p>
     <br>
     <br>
-  
+
   <center>
    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 	<div class="row">
@@ -51,9 +71,91 @@
 		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 	</div>
 	<input id="submit_button" type="submit" value="Send email" />
-</form>		
+</form>
 </center>
-<br><br>		
+<br><br>
+
+
+</br>
+
+<div class='row'>
+
+  <div class = 'col-sm-2'>
+  </div>
+
+
+
+    <div class="wrapper">
+
+      <div class = 'col-sm-2'>
+
+          <a href="brunch.html">
+    <figure class="gallery-item-small">
+        <img src="Stylesheets/images/brunch.PNG">
+        <figcaption class="img-title-small">
+            <h6>BRUNCH</h6>
+        </figcaption>
+    </figure>
+  </a>
+
+  </div>
+
+  <div class = 'col-sm-2'>
+
+
+
+      <a href="workout.html">
+    <figure class="gallery-item-small">
+        <img src="Stylesheets/images/Workout.PNG">
+        <figcaption class="img-title-small">
+            <h6>WORKOUT</h6>
+        </figcaption>
+    </figure>
+  </a>
+
+
+</div>
+
+
+<div class = 'col-sm-2'>
+
+        <a href="shop.html">
+    <figure class="gallery-item-small">
+        <img src="Stylesheets/images/Shop.PNG">
+        <figcaption class="img-title-small">
+            <h6>SHOP</h6>
+        </figcaption>
+    </figure>
+  </a>
+
+</div>
+
+<div class = 'col-sm-2'>
+
+
+      <a href="drinks.html">
+    <figure class="gallery-item-small">
+        <img src="Stylesheets/images/drinks.PNG">
+        <figcaption class="img-title-small">
+            <h6>DRINKS</h6>
+        </figcaption>
+    </figure>
+  </a>
+
+</div>
+
+</div>
+
+
+<div class = 'col-sm-2'>
+</div>
+
+</div>
+
+
+
+<br><br>
+
 <div>
 <center>
 <ul class="share-buttons">
@@ -66,6 +168,12 @@
   <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.milleniallondon.com&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="./Stylesheets/Images/Reddit.png"></a></li>
 
   <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.milleniallondon.com" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="./Stylesheets/Images/Email.png"></a></li>
-</ul>		
+</ul>
 </center>
 </div>
+
+<br> <br>
+
+</body>
+
+</html>

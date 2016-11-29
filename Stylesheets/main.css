@@ -89,6 +89,15 @@ ul {
     padding:20px 0 20px 0;
 
 }
+
+
+.share-buttons {
+
+    background-color: rgba(255,255,255,1);
+
+
+}
+
 li {
     display: inline-block;
     padding: 0px 40px 0px 40px;
@@ -122,6 +131,13 @@ h5 {
   align: center;
 }
 
+h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 35px;
+  letter-spacing: 5px;
+  align: center;
+}
+
 .ul2 {
   background-color: white
   position: center;
@@ -136,6 +152,23 @@ h5 {
     position: relative;
 }
 
+.gallery-item-small {
+    height: auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.gallery-item2 {
+  height: auto;
+  width: 100%;
+  float: left;
+  margin-bottom: 2em;
+  position: relative;
+
+    }
+
 
 
 .gallery-item img {
@@ -143,7 +176,21 @@ h5 {
 
 }
 
+.gallery-item-small img {
+    width: 100%;
+
+}
+
+.gallery-item2 img {
+    width: 100%;
+
+}
+
 .gallery-item:hover .img-title {
+    opacity: 1;
+}
+
+.gallery-item-small:hover .img-title-small {
     opacity: 1;
 }
 
@@ -168,20 +215,27 @@ h5 {
         text-align: center;
     }
 
-    .gallery-item2 {
-        height: auto;
+  .img-title-small {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        height: 100%;
         width: 100%;
-        float: left;
-        margin-bottom: 2em;
-        position: relative;
+        text-align: center;
+        opacity: 0;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: all 0.5s ease;
     }
 
+  .img-title-small h6 {
+            position: absolute;
+            color: #bbbbbb;
+            top: 40%;
+            width: 100%;
+            text-align: center;
+        }
 
-
-    .gallery-item2 img {
-        width: 100%;
-
-    }
 
 ul.share-buttons{
   list-style: none;
@@ -193,7 +247,7 @@ ul.share-buttons {
 
   display: inline;
   position: center;
- 
+
 }
 
 ul.share-buttons .sr-only {
